@@ -3,12 +3,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px white ;
 }
 
 .navbar > h1 {
     font-size: 30px;
-    color: rgb(197, 197, 107);
+    color: yellow;
 }
 
 .navbar_links > a {
@@ -18,7 +18,7 @@
     font-weight: 500;
     text-decoration: none;
     padding: 0 15px;
-    
+    color: white;
 }
 
 .navbar_emoji {
@@ -30,4 +30,6 @@
 .navbar_links
 {
     display: flex;
+    align-items: center;
+    
 }

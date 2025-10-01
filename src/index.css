@@ -8,3 +8,8 @@ body {
   background-color: black ;
   color: white;
 }
+
+.align_center {
+  display: flex;
+  align-items: center;
+}
