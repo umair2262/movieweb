@@ -1,6 +1,7 @@
 import React from 'react'
 import './Movielist.css'
 import Fire from '../assets/fire.png'
+import MovieCard from './MovieCard'
 
 const Movielist = () => {
   return (
@@ -29,6 +30,9 @@ const Movielist = () => {
 
 
         </header>
+        <div className='movie_cards'>
+            <MovieCard/>
+        </div>
 
     </section>
   )
